@@ -2,7 +2,7 @@ import React from 'react';
 
 const Reviews = ({ review }) => {
     return (
-        <div class="card w-96 text-black shadow-xl ">
+        <div class="card lg:max-w-lg text-black shadow-xl ">
             <div class="card-body">
                 <p>If a dog chews shoes whose shoes does he choose?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, ipsa.</p>
                 <div class="flex mt-8">

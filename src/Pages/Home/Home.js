@@ -3,13 +3,15 @@ import Appointment from './Appointment';
 import Banner from './Banner';
 import ContactUs from './ContactUs';
 import ExceptionalDental from './ExceptionalDental';
+import Footer from './Footer';
 import Info from './Info';
 import Services from './Services';
 import Testimonial from './Testimonial';
 
 const Home = () => {
     return (
-        <div >
+
+        <>
             <Banner />
             <Info />
             <Services />
@@ -17,7 +19,8 @@ const Home = () => {
             <Appointment />
             <Testimonial />
             <ContactUs />
-        </div>
+            <Footer />
+        </>
     );
 };
 
