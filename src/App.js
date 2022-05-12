@@ -6,13 +6,13 @@ import About from './Pages/About/About';
 
 function App() {
   return (
-    <>
+    <div className='bg-white'>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='about' element={<About />} />
       </Routes>
-    </>
+    </div>
   );
 }
 
