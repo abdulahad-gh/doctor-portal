@@ -1,6 +1,7 @@
 import React from 'react';
 import Appointment from './Appointment';
 import Banner from './Banner';
+import ContactUs from './ContactUs';
 import ExceptionalDental from './ExceptionalDental';
 import Info from './Info';
 import Services from './Services';
@@ -8,13 +9,14 @@ import Testimonial from './Testimonial';
 
 const Home = () => {
     return (
-        <div className='bg-white px-12'>
+        <div >
             <Banner />
             <Info />
             <Services />
             <ExceptionalDental />
             <Appointment />
             <Testimonial />
+            <ContactUs />
         </div>
     );
 };
